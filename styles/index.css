@@ -222,12 +222,13 @@ h2 {
 .key-point {
     background: rgb(102, 121, 223);
     color: white;
-    padding: .13333333em .33333333em;
+    padding: .13333333em .666666666em;
     /* 2px 5px */
     margin: .33333333em 0 .6em;
     /* 5/15 */
     display: inline-block;
     font-size: .875em;
+    border-radius: 0.3em;
     /* 14/16 */
 }
 
@@ -261,6 +262,23 @@ footer {
 
 /* end footer */
 
+/* css for color */
+.vue-color{
+    background: #7dd491;
+}
+.jquery-color{
+    background: #7ED0F1;
+}
+.html5-color{
+    background: #f79000;
+}
+.css3-color{
+    background: #65acf1;
+}
+.other-color{
+    background: #677CDC;
+}
+/* end color */
 
 /* css for media */
 
